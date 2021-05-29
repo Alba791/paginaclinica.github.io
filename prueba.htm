@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg">
+        <span class="R">Relaxs</span>
+        <span class="T">Thanks</span>
+      </div>
+<style>
+      .bg{
+        background-image: url("https://www.fillmurray.com/200/300");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: brightness(50%);
+        transition: all 1s ease 0s;
+    }
+    .bg {
+        background: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 1s ease 0s;
+    }
+    .bg .T, .R {
+        color: white;
+        font-size: 100px;
+        padding: 10px;
+        transition: all 1s ease 0s;
+    }
+    .bg .R {
+        display: none;
+    }
+    .bg:hover {
+        background: white;
+        font-size: 120px;
+        padding: 40px;
+        transition: all 1s ease 0s;
+    }
+    .bg:hover .R {
+        display: inline;
+    }
+    .bg:hover .T {
+        display: none;
+    }
+    .bg:hover .R {
+        color: black;
+        font-size: 100px;
+        padding: 10px;
+        transition: all 1s ease 0s;
+    }
+    .bg:hover .htmlBefore {
+        backdrop-filter: brightness(150%);
+        transition: all 1s ease 0s;
+    }
+</style>
+
+
+</body>
+</html>

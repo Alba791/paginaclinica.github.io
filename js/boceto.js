@@ -1,0 +1,1 @@
+alert("Hola Bienvenido a la Clinica New Hope");

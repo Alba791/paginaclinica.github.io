@@ -1,0 +1,126 @@
+body{
+    position: absolute;
+    background-color: rgb(14, 71, 88);
+}
+.Bloque1{
+    background-color: gray;
+    margin: 15px;
+    height: 200px;
+    position: relative;
+    font-size: 3cm;
+    text-align: center;
+    width: 1700px;
+    }
+.redessociales{
+    background-color: rgb(109, 109, 109);
+    right: 40px;
+    position: absolute;
+    top: 160px;
+    font-size: 25px;
+}
+.navegador{
+    float: left;
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+#bloque2{
+    background-color: rgb(253, 254, 255);
+    width: 230px;
+    height: 50px;
+    padding: 10px 12px;
+    border-bottom: rgb(14, 71, 88) 10px solid;
+
+}
+.imagen1{
+    background-color: silver;
+    width: 400px;
+    height: 560px;
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+    margin: 15px;
+}
+.subtitulo{
+    background-color: rgb(8, 24, 26);
+    width: 920px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    float: right;
+    margin: 20px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(239, 249, 250);
+}
+.finaltexto{
+    background-color: rgb(12, 11, 11);
+    top: 770px;
+    right: 38px;
+    font-size: 25px;
+    position: absolute;
+    color: blanchedalmond;
+}
+.contenedor2{
+    background-color: rgb(231, 232, 233);
+    float: right;
+    width: 1390px;
+}
+.texto{
+    width: 900px;
+    float: right;
+    font-size: 25px;
+    margin: 30px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+br{
+    clear: both;
+}
+.Final1{
+    background-color: gray;
+    width: 250px;
+    height: 240px;
+    left: 100px;
+    margin-right: 70px;
+    margin-top: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 15px;
+}
+.Final2{
+    background-color: gray;
+    width: 420px;
+    height: 240px;
+    right: 100px;
+    margin: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+.Final3{
+    background-color: gray;
+    width: 410px;
+    height: 240px;
+    left: 100px;
+    margin: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+}
+.Final4{
+    background-color: gray;
+    width: 410px;
+    height: 240px;
+    left: 100px;
+    margin: 25px;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+}
+ .nav li a:hover {
+        background-color: rgb(67, 178, 221);
+ }
